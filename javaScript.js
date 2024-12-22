@@ -63,7 +63,7 @@ createGrid(16)
 
 newGridButton.addEventListener("click", () => {
     gridContainer.innerHTML = "";
-    getNumber = prompt("Enter The Number Of Squares");
+    getNumber = prompt("Enter A Number  (We will multiply that number to create a new square grid)");
     if (getNumber >= 100){
         alert("Please enter a number less than 100");
         newGrid = 16;
